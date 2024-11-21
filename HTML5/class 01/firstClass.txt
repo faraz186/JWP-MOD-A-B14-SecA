@@ -12,7 +12,7 @@
       
 <h4>Welcome to the First Class of Module A</h4>
 
-<h5>Welcome to the First Class of Module A</h5>
+<h5>Welcome to the First Class of Module A</h5>  
 
 <h6>Welcome to the First Class of Module A</h6>    
   
