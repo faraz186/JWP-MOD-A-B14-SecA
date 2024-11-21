@@ -1,0 +1,26 @@
+<html>    
+  
+<head></head>
+  
+<body>
+  
+<h1>Welcome to the First Class of Module A</h1>    
+  
+<h2>Welcome to the First Class of Module A</h2>  
+    
+<h3>Welcome to the First Class of Module A</h3>
+    
+<h4>Welcome to the First Class of Module A</h4>
+
+<h5>Welcome to the First Class of Module A</h5>
+
+<h6>Welcome to the First Class of Module A</h6>  
+
+<p>Attitudes towards science are often determined by political opinions and goals. Government, business and advocacy groups have been known to use legal and economic pressure to influence scientific researchers. Many factors can act as facets of the politicization of science such as anti-intellectualism, perceived threats to religious beliefs, and fear for business interests. Politicization of science is usually accomplished when scientific information is presented in a way that emphasizes the uncertainty associated with the scientific evidence.</p>
+
+<p>Many factors can act as facets of the politicization of science such as <b>anti-intellectualism</b>, perceived threats to religious beliefs, and fear for business interests.</p>
+
+</body>
+
+
+</html>
