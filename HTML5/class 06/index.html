@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+    </head>
+    <body>
+        <!-- Chapter nO: 07 (Forms) -->
+        <fieldset>
+            <legend>
+                <strong>Student Information</strong>
+            </legend>
+            <form action="https://formsubmit.co/farazmohammad1900@gmail.com" method="POST">
+                <label>Enter name</label>
+                <input
+                    required
+                    name="userName"
+                    placeholder="Enter name"
+                    type="text"
+                >
+                <br>
+                <br>
+                <label>Enter Email</label>
+                <input
+                    required
+                    size="50"
+                    name="userEmail"
+                    placeholder="Enter email"
+                    type="email"
+                >
+                <br>
+                <br>
+                <label>Enter password</label>
+                <input
+                    required
+                    maxlength="8"
+                    name="userPassword"
+                    placeholder="Enter password"
+                    type="password"
+                >
+                <br>
+                <br>
+                <textarea rows="10" cols="25" name="comment"></textarea>
+                <br>
+                <br>
+                <label>Select your gender</label>
+                <br>
+                <br>
+                <input
+                    checked
+                    value="male"
+                    name="abc"
+                    type="radio"
+                >
+                Male
+                <br>
+                <br>
+                <input
+                    disabled
+                    value="female"
+                    name="abc"
+                    type="radio"
+                >
+                Female
+                <br>
+                <br>
+                <label>Select your courses</label>
+                <br>
+                <br>
+                <input
+                    disabled
+                    checked
+                    name="courses"
+                    type="checkbox"
+                >
+                WAM
+                <br>
+                <br>
+                <input name="courses" type="checkbox">
+                GD
+                <br>
+                <br>
+                <input name="courses" type="checkbox">
+                AI
+                <br>
+                <br>
+                <input name="courses" type="checkbox">
+                VE
+                <br>
+                <br>
+                <select name="institute">
+                    <option selected disabled>Select institute</option>
+                    <option value="SAIMS">SAIMS (WOW)</option>
+                    <option value="JWP">JWP</option>
+                    <option value="Bharia Uni">Bharia Uni</option>
+                    <option value="SSUET Uni">SSUET Uni</option>
+                </select>
+                <br>
+                <br>
+                <input type="file">
+                <br>
+                <br>
+                <!-- <input width="80" type="image" src="https://static.vecteezy.com/system/resources/previews/022/979/762/non_2x/submit-button-icon-for-graphic-design-logo-website-social-media-mobile-app-ui-illustration-vector.jpg">
+                <input type="submit"> -->
+                <input type="time">
+                <br>
+                <br>
+                <button>Submit</button>
+            </form>
+        </fieldset>
+    </body>
+</html>
