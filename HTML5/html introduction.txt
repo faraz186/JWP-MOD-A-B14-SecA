@@ -3,7 +3,7 @@ HTML (Hyper text markup language)
 HTML is not a programming language  
     
 html is a markup language
-  
+    
 it's a tag based language  
   
 open tag          <p>
