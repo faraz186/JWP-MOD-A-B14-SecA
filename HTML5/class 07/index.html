@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="en">  
+    <head>
+        <meta charset="UTF-8">  
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">  
+        <title>Forms</title>    
+    </head>  
+    <body>  
+        <!-- data store in key value form -->
+
+
+        <!-- userName = faraz  
+        userEmail = faraz@gmail.com
+        userPassword = 132g1d3g1d3g1 -->      
+
+
+        <!-- Chapter no: 07 (Forms)  -->  
+        
+        <fieldset>
+            <legend>Student Information</legend>
+            <form action="https://formsubmit.co/farazmohammad1900@gmail.com" method="POST">
+                <label>Enter name</label>
+                <input
+                    required
+                    placeholder="Enter name"
+                    name="userName"
+                    size="25"
+                    type="text"
+                >
+                <br>  
+                <br>
+                
+                <label>Enter Email</label>
+                <input
+                    required
+                    placeholder="Enter email"
+                    name="userEmail"
+                    type="email"
+                >
+                <br>
+                <br>  
+                
+                <label>Enter password</label>
+                <span>*</span>
+                
+                <input
+                    required
+                    placeholder="Enter password"
+                    name="userPassword"
+                    maxlength="8"
+                    type="password"
+                >
+                <br>
+                <br>
+
+                <!-- Multi line Input  -->
+                
+                <textarea
+                    placeholder="Enter comments...."
+                    rows="10"  
+                    cols="25"
+                    name="comment"
+                ></textarea>
+                <br>
+                <br>
+
+                <!-- radio button -->
+
+
+                <label>Select your gender</label>
+                <br>
+                <br>
+                <input value="Male" name="gender" type="radio">
+                Male
+                <br>
+                <br>  
+                <input value="Female" name="gender" type="radio">
+                Female
+                <br>
+                <br>
+
+                <!-- checkboxes -->
+
+
+                <label>Select your courses</label>
+                <br>
+                <br>
+                <input
+                    value="WAM"
+                    disabled
+                    checked
+                    name="courses"
+                    type="checkbox"
+                >
+                WAM
+                <br>
+                <br>
+                <input value="GD" name="courses" type="checkbox">
+                GD
+                <br>
+                <br>
+                <input value="AI" name="courses" type="checkbox">
+                AI
+                <br>
+                <br>
+                <input value="VE" name="courses" type="checkbox">   
+                VE
+                <br>
+                <br>
+
+                
+                <!-- DropDown List -->
+
+                <label>Select your institute</label>
+
+                <select name="institute">
+                    <option selected disabled>Select option</option>
+                    <option value="SAIMS">SAIMS</option>
+                    <option value="JWP Academy">JWP Academy</option>
+                    <option value="bharia Uni">bharia Uni</option>
+                    <option value="Iqra Uni">Iqra Uni</option>
+                </select>
+                <br>
+                <br>
+                <br>
+                
+                <!-- File input -->
+
+                <input type="file">
+
+                <br>
+                <br>
+
+                <button>Submit</button>
+   
+                <!-- <input width="100" type="image" src="https://static.vecteezy.com/system/resources/previews/022/979/762/non_2x/submit-button-icon-for-graphic-design-logo-website-social-media-mobile-app-ui-illustration-vector.jpg"> -->
+            </form>
+        </fieldset>
+    </body>
+</html>
