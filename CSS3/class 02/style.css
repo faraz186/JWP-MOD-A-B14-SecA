@@ -1,0 +1,92 @@
+/* type Seclector */
+
+h1,
+h2,
+h3,
+p {
+  color: white;
+  background-color: black;
+}
+
+
+
+/* universal Selector */
+
+* {
+  color: orange;
+}
+
+
+
+/* class selector */
+
+
+.para1 {
+  color: red;
+}
+
+.para2 {
+  color: blue;
+}
+
+.para3 {
+  color: green;
+}
+
+.para4 {
+  color: orange;
+}
+
+.para5 {
+  color: black;
+}
+
+
+
+/* Id Selector */
+
+#para1 {
+  color: green;
+}
+
+
+
+h1 {
+  color: red;
+  background-color: black;
+}
+
+p {
+  color: white;
+  background-color: black;
+}
+
+
+
+/* Child Selector */
+
+
+div h1 {
+  color: green;
+  background-color: lightcyan;
+}
+
+
+
+/* Adjacent sibling Selector */
+
+
+
+h1 ~ p {
+  color: blue;
+}
+
+#p1 {
+  color: green;
+}
+
+
+
+#container > .link {
+  color: green;
+}
