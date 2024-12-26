@@ -9,11 +9,11 @@ p {
   font-size: 50%;
 }
 
-/* h1 {
+h1 {
   text-shadow: -5px -8px 5px rgb(7, 7, 7);
 }
 
-a {
+a {  
   text-decoration: line-through;
   color: #000000;
 }
@@ -43,7 +43,7 @@ p {
 
 p{
   font-size: 100%;
-} */
+}
 
 /* p:first-letter {
   font-size: 50px;
