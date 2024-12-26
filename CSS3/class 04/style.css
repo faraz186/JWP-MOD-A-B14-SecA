@@ -45,11 +45,11 @@ p{
   font-size: 100%;
 }
 
-/* p:first-letter {
+p:first-letter {
   font-size: 50px;
   color: red;
   font-weight: bold;
-} */
+}
 
 /* p:first-line {
   color: red;
