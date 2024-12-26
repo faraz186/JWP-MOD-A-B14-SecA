@@ -1,0 +1,94 @@
+@import url("https://fonts.googleapis.com/css2?family=Playwrite+CO+Guides&display=swap");
+
+/* p {
+  font-family: Arial, Helvetica, sans-serif;
+  background-color: black;
+  color: white;
+  font-size: 50%;
+} */
+
+/* h1 {
+  text-shadow: -5px -8px 5px rgb(7, 7, 7);
+}
+
+a {
+  text-decoration: line-through;
+  color: #000000;
+}
+
+p {
+  line-height: 2em;
+  text-indent: 100px;
+}
+
+.child2 {
+  font-weight: bold;
+  color: red;
+}
+
+.child1 {
+  font-style: italic;
+}
+
+.child3 {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+.alphabet{
+  font-size: 32px;
+}
+
+p{
+  font-size: 100%;
+} */
+
+/* p:first-letter {
+  font-size: 50px;
+  color: red;
+  font-weight: bold;
+} */
+
+/* p:first-line {
+  color: red;
+  background-color: black;
+} */
+
+a:link {
+  color: green;
+}
+
+a:visited {
+  color: red;
+}
+
+a:hover {
+  text-shadow: 0 0 10px red;
+}
+
+button:hover {
+  background-color: cyan;
+  color: black;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+button:active {
+  background-color: white;
+  font-size: 25px;
+}
+
+input:focus {
+  background-color: lightsalmon;
+}
+
+/* li:nth-child(2n-2) {
+  color: red;
+} */
+
+/* li:nth-last-child(2n + 2) {
+  color: blue;
+} */
+
+/* li:nth-child(3n) {
+  color: purple;
+} */
