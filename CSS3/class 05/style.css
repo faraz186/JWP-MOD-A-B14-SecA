@@ -1,0 +1,43 @@
+/* p[class*="ra"] {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}
+
+p[class^="ra"] {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}
+
+p[class~="ra"] {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+}
+
+p[class$="ra"] {
+  color: red;
+  font-style: italic;
+  font-weight: bold;
+} */
+
+
+
+p {
+  border: 1px solid red;
+  width: 100vw;
+  height: 100vh;
+}
+
+div > img {
+  width: 100%;
+}
+
+div {
+  border: 2px solid red;
+  width: 500px;
+  min-height: 200px;
+  max-height: 300px;
+  overflow: scroll;
+}
