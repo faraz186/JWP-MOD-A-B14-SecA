@@ -1,0 +1,79 @@
+* {
+  /* margin: 0; */
+  /* padding: 0; */
+}
+
+/* .box {  */
+/* border: 10px ridge green;  */
+/* border shorthand property */
+
+/* border-width: 10px;
+  border-style: ridge;
+  border-color: blue;
+  border-top-color: red;
+  border-bottom-color: green;
+  border-left-color: brown;
+}
+/* 
+div {
+  border: 2px solid red;
+  margin: 50px;
+  padding: 30px;
+} */
+
+/* div > p {
+border: 2px solid green;
+  margin: 20px 50px 70px 10px;
+
+padding-top: 50px;
+  padding-bottom: 40px;
+  padding-left: 20px;
+  padding-right: 40px;
+
+ padding: 40px 20px;
+} */
+
+/* p {
+  background-color: lightcoral;
+  text-align: center;
+  width: 50%;
+  margin: auto;
+}
+
+a {
+  background-color: rgb(137, 192, 137);
+  text-align: center;
+}
+
+ul {
+  background-color: lightgreen;
+}
+
+li {
+  background-color: lightcoral;
+  margin: 5px;
+  padding: 10px;
+  width: 150px;
+  height: 70px;
+  display: inline-block;
+}
+
+.list2 {
+  visibility: hidden;
+  display: none;
+}
+
+a {
+  background-color: lightseagreen;
+  display: block;
+  text-align: center;
+} */
+
+/* p {
+  border: 2px solid blue;
+  border-bottom-right-radius: 50px;
+  border-radius: 10 0 0 0;
+  padding: 5px;
+  box-shadow: 0 0 20px blue;
+  border-image: url("https://png.pngtree.com/png-clipart/20220628/ourmid/pngtree-border-black-simple-and-minimalist-png-image_5329503.png");
+} */
