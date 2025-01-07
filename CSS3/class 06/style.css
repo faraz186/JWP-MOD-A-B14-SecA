@@ -8,7 +8,7 @@
 /* border shorthand property */    
   
   border-width: 10px;  
-  border-style: ridge;
+  border-style: ridge;  
   border-color: blue;  
   border-top-color: red;    
   border-bottom-color: green;
