@@ -6,7 +6,7 @@
 .box {   
    border: 10px ridge green; 
 /* border shorthand property */  
-
+  
   border-width: 10px;  
   border-style: ridge;
   border-color: blue;
