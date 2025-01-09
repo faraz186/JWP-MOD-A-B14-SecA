@@ -1,0 +1,126 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Trebuchet MS", "Lucida Sans Unicode", "Lucida Grande",
+    "Lucida Sans", Arial, sans-serif;
+}
+
+/* Navbar layout style */
+
+ul {
+  background-color: rgb(54, 52, 52);
+  padding: 20px;
+}
+
+li {
+  display: inline;
+  padding-left: 20px;
+}
+
+li > a {
+  text-decoration: none;
+  color: white;
+}
+
+.list1 {
+  font-weight: bold;
+  font-size: 22px;
+  color: white;
+  margin-right: 800px;
+}
+
+/* Card Layout style  */
+
+.card-layout {
+  width: 300px;
+  display: inline-block;
+  margin: 40px;
+  height: 360px;
+  background-color: rgb(214, 205, 205);
+  border-radius: 0 0 10px 10px;
+}
+
+.card-layout > img {
+  width: 100%;
+  border-radius: 10px 10px 0 0;
+}
+
+.card-layout > h2 {
+  margin: 10px;
+  color: rgb(73, 71, 71);
+}
+
+.card-layout p {
+  text-align: justify;
+  margin: 10px;
+}
+
+.card-layout > button {
+  margin-left: 50px;
+  width: 70%;
+  padding: 5px;
+  border: none;
+  background-color: cyan;
+  color: black;
+  border-radius: 5px;
+  font-size: 15px;
+}
+
+ul {
+  list-style-type: square;
+
+  list-style-image: url("https://img.freepik.com/free-vector/3d-metal-star-isolated_1308-117760.jpg");
+
+  background-color: rgb(233, 181, 84);
+
+  list-style-position: inside;
+  list-style-type: circle;
+
+  list-style: inside circle;
+}
+
+table {
+  border: 1px solid black;
+  width: 300px;
+  border-spacing: 10px 10px;
+  border-collapse: collapse;
+  empty-cells: hide;
+}
+
+td:hover {
+  background-color: lightgreen;
+}
+
+tr,
+td {
+  border: 1px solid black;
+}
+
+button:hover {
+  background-color: cyan;
+  box-shadow: 0 0 20px cyan;
+}
+
+input.email {
+  background-image: url("https://png.pngtree.com/png-clipart/20191120/original/pngtree-email-icon-png-image_5065641.jpg");
+  background-size: 18px;
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  border: none;
+}
+
+input.password {
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRIy0EU-aDzqkCdtMZndw2oBPhiXtdvf5FuEg&s");
+  background-size: 18px;
+  background-repeat: no-repeat;
+  padding-left: 25px;
+  border: none;
+}
+
+input.email:focus {
+  outline: none;
+}
+
+input.password:focus {
+  outline: none;
+}
