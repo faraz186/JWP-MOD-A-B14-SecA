@@ -1,0 +1,118 @@
+@import url("./style2.css");
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+button {
+  margin-left: 25px;
+  padding: 5px;
+  border: none;
+  color: white;
+  background-color: royalblue;
+  border-radius: 6px;
+  cursor: wait;
+}
+
+fieldset {
+  width: 300px;
+  margin: 10px auto;
+  border: 1px solid red;
+  padding: 10px;
+}
+
+legend {
+  background-color: gray;
+  color: white;
+}
+
+input {
+  margin: 10px 30px;
+  padding: 5px;
+  font-size: 15px;
+  border-top: none;
+  border-left: none;
+  border-right: none;
+}
+
+input:focus {
+  outline: none;
+  border: 1px solid red;
+}
+
+p {
+  user-select: all;
+}
+
+body {
+  background-color: lightblue;
+}
+
+.black {
+  background-color: black;
+  width: 200px;
+  display: inline-block;
+  height: 180px;
+}
+
+.white {
+  background-color: white;
+  width: 200px;
+  display: inline-block;
+  height: 180px;
+}
+
+img {
+  position: relative;
+  left: 200px;
+  bottom: 100px;
+}
+
+img {
+  position: fixed;
+  top: 500px;
+  left: 1100px;
+}
+
+.div1 {
+  background-color: red;
+  width: 400px;
+  float: left;
+  height: 40px;
+}
+
+.div2 {
+  background-color: blue;
+  width: 150px;
+  float: left;
+  height: 40px;
+}
+
+.div3 {
+  background-color: green;
+  width: 100px;
+  float: left;
+
+  height: 40px;
+}
+
+.div4 {
+  background-color: orange;
+  width: 50px;
+  float: left;
+
+  height: 40px;
+}
+
+p {
+  clear: both;
+}
+
+h1 {
+  background-color: cyan;
+  color: black;
+  margin: 0 auto;
+  width: 500px;
+  text-align: center;
+}
