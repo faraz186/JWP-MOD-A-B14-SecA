@@ -1,0 +1,48 @@
+div {
+  border: 1px solid black;
+  padding: 10px;
+  width: 800px;
+
+  background-image: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHhEk_gCrFuhTUoabysatez1EAL-rdzj68DgpVXXrqesJ8oZTI04acfGEWhf9Ij05qlmw&usqp=CAU");
+  background-repeat: no-repeat;
+  background-position: top left;
+  background-size: cover;
+  background-attachment: fixed;
+
+  background: url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQHhEk_gCrFuhTUoabysatez1EAL-rdzj68DgpVXXrqesJ8oZTI04acfGEWhf9Ij05qlmw&usqp=CAU")
+    bottom center no-repeat;
+}
+
+div {
+  width: 600px;
+  height: 500px;
+  background-image: url("https://cdn.pixabay.com/photo/2020/04/10/11/54/nature-5025462_640.jpg");
+  background: linear-gradient(
+    50deg,
+    rgb(173, 96, 96),
+    rgb(238, 197, 120),
+    rgb(158, 233, 115)
+  );
+}
+
+div {
+  border: 1px solid black;
+  width: 900px;
+  height: 400px;
+  background: linear-gradient(
+      90deg,
+      rgba(173, 96, 96, 0.7) 70%,
+      rgba(238, 197, 120, 0.7) 30%
+    ),
+    url("https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHTESXFPAERvHIPobNGERirpby1oimQmwmNony5Nh2jHGd6QW019L7At7CzQh5QsrsYoE&usqp=CAU")
+      no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+p {
+  color: black;
+  font-size: 16px;
+  font-family: Arial, Helvetica, sans-serif;
+  line-height: 1.7em;
+}
