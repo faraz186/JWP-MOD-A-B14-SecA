@@ -18,7 +18,7 @@ div {
   height: 500px;
   background-image: url("https://cdn.pixabay.com/photo/2020/04/10/11/54/nature-5025462_640.jpg");
   background: linear-gradient(
-    50deg,
+    50deg, 
     rgb(173, 96, 96),
     rgb(238, 197, 120),
     rgb(158, 233, 115)
