@@ -1,0 +1,21 @@
+.carousel-item {
+  height: 100vh;
+  min-height: 300px;
+}
+
+.carousel-inner:before {
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  left: 0;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.3);
+  z-index: 1;
+  /* opacity: 1.5; */
+}
+
+.carousel-caption {
+  bottom: 200px;
+  z-index: 2;
+}
