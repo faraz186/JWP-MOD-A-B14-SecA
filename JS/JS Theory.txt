@@ -1,0 +1,30 @@
+JavaScript (A Programming Language)
+
+1) Assembly language
+2) High Level language
+3) Low Level language
+
+c++
+c#
+java
+python
+php
+c
+ruby
+javascript
+
+javascript is a high level langauge
+
+
+Translator:-
+
+1) Assembler
+2) Complier        ======> Python
+
+Run whole program at a time
+
+3) Interpreter      ======>   JS
+
+Run program line by line execute
+
+
