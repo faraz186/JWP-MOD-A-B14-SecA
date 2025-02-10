@@ -32,41 +32,39 @@ alert(c)
 // var z = x + y;
 // alert(z);
 
-// var a;
-// a = 6;
+var a;
+a = 6;
 
-// var a = (3 + 6) / 2 * (5 - 7);
-// alert(a);
+var a = (3 + 6) / 2 * (5 - 7);
+alert(a);
 
-// i++ (i=i+1) (Post Increment) Pehlay output generate krayga then add hoga
+// i++ (Post Increment) Pehlay output generate krayga then add hoga
 // ++i ( Pre Increment) Pehlay add hoga phir output generate krayga
 
 // i-- (Post Decrement)
 // --i (Pre Decrement )
 
-// var a = 3;
-// var b = a++;
-// alert(b);
+var a = 3;
+var b = a++;
+alert(b);
 
-// var x = 5;
-// var y = ++x;
-// alert(y);
+var x = 5;
+var y = ++x;
+alert(y);
 
-// var a = 5;
-// var b = a++ + a++;
-//         5
-// alert(b);
+var a = 5;
+var b = a++ + a++;
+alert(b);
 
 var x = 3;
 var y = x++ + --x - x + ++x + x-- + --x - x + x++ + ++x;
-//         3 + 3 - 3 + 4 + 4 + 2 - 2 + 2 + 4
-// alert(y);
 
-// var a = 2;
-// var b = --a + ++a - a++ - a++ + a + a++ + a;
-//         1 + 2 - 2 - 3 + 4 + 4 + 5
-// alert(b);
+alert(y);
 
-// var f = 10;
-// var g = f%3;
-// alert(g);
+var a = 2;
+var b = --a + ++a - a++ - a++ + a + a++ + a;
+alert(b);
+
+var f = 10;
+var g = f%3;
+alert(g);
