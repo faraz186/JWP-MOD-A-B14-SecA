@@ -12,15 +12,15 @@ var b = 15;
 var c = a + b;
 alert(c);
 
-// var x = "ali";
-// var y = "mughal";
-// var z = x + y;
-// alert(z);
+var x = "ali";
+var y = "mughal";
+var z = x + y;
+alert(z);
 
-// var f = "faraz";
-// var g = 15;
-// var h = f-g;
-// alert(h)
+var f = "faraz";
+var g = 15;
+var h = f-g;
+alert(h)
 
 // var a = "15";
 // var b = 25;
