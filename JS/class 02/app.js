@@ -4,7 +4,7 @@ console.log("Hello World");
 
 var a = 5;
 var b = 10;
-var ali = "hamza123";
+var ali = "hamza123";  
 var _faraz = 567;
 
 var a = 10;
