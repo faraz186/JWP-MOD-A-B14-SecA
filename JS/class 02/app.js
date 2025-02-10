@@ -22,10 +22,10 @@ var g = 15;
 var h = f-g;
 alert(h)
 
-// var a = "15";
-// var b = 25;
-// var c = a+b;
-// alert(c)
+var a = "15";
+var b = 25;
+var c = a+b;
+alert(c)
 
 // var x = 3;
 // var y = "6";
