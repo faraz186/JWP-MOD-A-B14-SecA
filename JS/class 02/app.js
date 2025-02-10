@@ -1,16 +1,16 @@
-// alert("Hello World");
-// document.write("Hello World");
-// console.log("Hello World");
+alert("Hello World");
+document.write("Hello World");
+console.log("Hello World");
 
-// var a = 5;
-// var b = 10;
-// var ali = "hamza123";
-// var _murtaza = 567;
+var a = 5;
+var b = 10;
+var ali = "hamza123";
+var _murtaza = 567;
 
-// var a = 10;
-// var b = 15;
-// var c = a + b;
-// alert(c);
+var a = 10;
+var b = 15;
+var c = a + b;
+alert(c);
 
 // var x = "ali";
 // var y = "mughal";
