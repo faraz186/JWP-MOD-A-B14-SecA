@@ -1,14 +1,12 @@
 // variables
 
-// Q calculate circumference of circle in which the given
-
-// radius is 22
+// Q calculate circumference of circle in which the given radius is 22
 
 var radius = 22;
 
 var circumference = 2 * 3.141 * radius;
 
-console.log("The value is: ", circumference);
+console.log("The value is: ", circumference);  
 
 console.log(100 + 50);
 
