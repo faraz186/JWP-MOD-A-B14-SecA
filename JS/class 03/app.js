@@ -12,8 +12,6 @@ console.log(100 + 50);
 
 // variable name = variable value
 
-// variable Declaration
-
 // ES5 (BASIC JS)
 // (BASIC JS)
 // VANILLA JS
@@ -21,16 +19,20 @@ console.log(100 + 50);
 
 // ES6 (ADVANCE JS)
 
-var num;
 
-num = 100;
+// variable Declaration
+
+var num;
 
 console.log(num)
 
 // variable Decalration and intialization
 
-var num = 10;
+var num;
 
+num = 100;
+
+console.log(num)
 
 // Datatypes in JS
 
