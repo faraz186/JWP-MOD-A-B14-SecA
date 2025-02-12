@@ -34,8 +34,9 @@ num = 100;
 
 console.log(num)
 
-// Datatypes in JS
 
+
+// Datatypes in JS
 
 // Number   52 , 100 , 50
 
@@ -59,8 +60,6 @@ console.log(typeof (firstNum + secondNum));
 // ------------------------------------------------------
 
 var word = "Hello my name is faraz";
-
-
 
 
 // Camel Case
@@ -114,6 +113,9 @@ console.log(exp);
 // i-- => (Post Decrement)
 
 // --i => (Pre Decrement
+
+
+
 
 var num = 10;
 
