@@ -5,7 +5,7 @@
 var radius = 22;
 
 var circumference = 2 * 3.141 * radius;
-
+  
 console.log("The value is: ", circumference);  
 
 console.log(100 + 50);
