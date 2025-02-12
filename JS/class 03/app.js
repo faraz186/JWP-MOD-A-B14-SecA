@@ -123,7 +123,8 @@ var Inc = num--;
 
 console.log(num);
 
-var num2 = num + 1;
+// var num2 = num + 1;
+
 
 var a = 5;
 
@@ -132,6 +133,8 @@ var b = 3;
 var c = a + --a + b-- + b + --a + ++a - b;
 
 console.log(c);
+
+
 
 var firstName = "Muhammad";
 
@@ -151,6 +154,8 @@ console.log(
     " years old."
 );
 
+
+
 // prompt
 
 // prompt() =======>   js builtin function
@@ -159,11 +164,15 @@ prompt("Enter email", "faraz@gmail.com");
 
 prompt("Enter password");
 
-var firstNum = prompt("Enter first value");
 
-var secondNum = prompt("Enter second value");
+
+var firstNum = +prompt("Enter first value");
+
+var secondNum = +prompt("Enter second value");
 
 console.log(firstNum, secondNum);
+
+
 
 var firstName = prompt("Enter first name");
 
@@ -171,11 +180,14 @@ var lastName = prompt("Enter last name");
 
 console.log(firstName, lastName);
 
+
+
 var firstNum = +prompt("Enter first value");
 
 var secondNum = +prompt("Enter second value");
 
 console.log("Subtract of two values is:", firstNum - secondNum);
+
 
 var firstName = "Muhammad";
 
@@ -187,7 +199,8 @@ alert(
   "Hello my name is " + firstName + lastName + "and I'm" + age + " years old."
 );
 
-// Chapter 1 (Alert)
+
+// Excercise:  Chapter 1 (Alert)
 
 // q1
 
@@ -230,18 +243,10 @@ alert(message);
 
 // q5
 
-// alert("           PIZZA \n     PIZZ \n     PIZ \n PI \n P");
+alert(" PIZZA \n  PIZZ \n  PIZ \n PI \n P");
 
 // alert("▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬▬");
 
-// '▬▬▬▬▬▬▬▬▬ஜ۩۞۩ஜ▬▬▬▬▬▬▬▬'
-
-// document.write("<h1>hello <br> world</h1>");
-
+document.write("<h1>hello <br> world</h1>");
 
 var first_name = 10,username = "faraz",fullname = undefined
-
-
-// var username
-
-// var fullname
