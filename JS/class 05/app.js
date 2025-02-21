@@ -27,44 +27,35 @@ else {
   console.log("next time..");
 }
 
-// var programming_lang = prompt("Enter your programming_lang");
 
-// if (programming_lang === "js") {
-//   var experience = +prompt("Enter your experience");
+// hiring program
 
-//   if (experience >= 2) {
-//         var city = prompt("Enter your city");
-//         if (city === "karachi") {
-//       console.log("hire!!");
-//     } else {
-//           console.log("karachi ajao!!");
-//         }
-//       } else {
-//             console.log("experience lay kr ao...");
-//           }
-//         } else {
-//               console.log("JS SEEKHO!!");
-// }
 
-// if (programming_lang === "js" && experience >= 2 && city === "karachi") {
-//   console.log("hire!!");
-// } else {
-//   console.log("sorry better luck next time..");
-// }
+var programming_lang = prompt("Enter your programming_lang");
 
-// if (programming_lang === "js") {
-//   if (experience >= 2) {
-//     if (city === "lahore") {
-//       console.log("hire");
-//     } else {
-//       console.log("lahore ajao");
-//     }
-//   } else {
-//     console.log("experince lao");
-//   }
-// } else {
-//   console.log("js seekho");
-// }
+if (programming_lang === "js") 
+{
+  var experience = +prompt("Enter your experience");
+  if (experience >= 2) 
+    {
+        var city = prompt("Enter your city");
+        if (city === "karachi") 
+        {
+      console.log("hire!!");
+    } 
+        else {
+          console.log("karachi ajao!!");
+        }
+      } 
+  else {
+            console.log("experience lay kr ao...");
+          }
+        } 
+else {
+              console.log("JS SEEKHO!!");
+}
+
+
 
 // var city1 = "karachi";
 // var city2 = "lahore";
