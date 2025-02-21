@@ -1,18 +1,20 @@
-// var age = +prompt("Enter your age");
+var age = +prompt("Enter your age");
 
-// var weight = +prompt("Enter your weight");
+var weight = +prompt("Enter your weight");
 
-// var city = prompt("Enter your city");
+var city = prompt("Enter your city");
 
-// if (city == "karachi") {
-//   if (age >= 18 || weight >= 90) {
-//     console.log("join now..");
-//   } else {
-//     console.log("next time..");
-//   }
-// } else {
-//   console.log("city not match");
-// }
+if (city == "karachi") {
+  if (age >= 18 || weight >= 90) 
+  {
+    console.log("join now..");
+  } 
+  else {
+    console.log("next time..");
+  }
+} else {
+  console.log("city not match");
+}
 
 // if ((age >= 18 || weight >= 90) && city == "karachi") {
 //   console.log("join now..");
