@@ -10,7 +10,7 @@ if (city == "karachi") {
   if (age >= 18 || weight >= 90) 
   {
     console.log("join now..");
-  } 
+  }   
   else {
     console.log("next time..");
   }
