@@ -18,11 +18,14 @@ if (city == "karachi") {
   console.log("city not match");
 }
 
-// if ((age >= 18 || weight >= 90) && city == "karachi") {
-//   console.log("join now..");
-// } else {
-//   console.log("next time..");
-// }
+// logical operator program
+
+if ((age >= 18 || weight >= 90) && city == "karachi") {
+  console.log("join now..");
+} 
+else {
+  console.log("next time..");
+}
 
 // var programming_lang = prompt("Enter your programming_lang");
 
