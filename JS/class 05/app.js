@@ -4,6 +4,8 @@ var weight = +prompt("Enter your weight");
 
 var city = prompt("Enter your city");
 
+// Nested If Statement
+
 if (city == "karachi") {
   if (age >= 18 || weight >= 90) 
   {
