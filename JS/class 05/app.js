@@ -1,5 +1,5 @@
 var age = +prompt("Enter your age");
-         
+          
 var weight = +prompt("Enter your weight");
 
 var city = prompt("Enter your city");
