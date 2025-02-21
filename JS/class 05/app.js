@@ -60,6 +60,8 @@ else {
 }
 
 
+// Array Chap 15
+
 
 // var city1 = "karachi";
 // var city2 = "lahore";
@@ -68,24 +70,30 @@ else {
 // var city5 = "quetta";
 // var city6 = "Islamabad";
 
+
 // single variable with multiple data store
 
-// index number:   0;    1    2
+// index number:   0     1     2       3         4
 
-// var cities = ["karachi", 100, true, "faraz", undefined];
+var cities = ["karachi", 100, true, "faraz", undefined];
 
-// cities[3] = "ahmed";
-// cities[4] = null;
+cities[3] = "ahmed";
+cities[4] = null;
 
-// console.log(cities);
+console.log(cities);
 
-// var num = ["faraz", "karachi", 24, "male", "instructor"];
 
-// num[1000] = true;
 
-// console.log(num);
+var num = ["faraz", "karachi", 24, "male", "instructor"];
 
-// var arr = ["karachi", "lahore", "peshawar"];
+num[1000] = true;
+
+console.log(num);
+
+var arr = ["karachi", "lahore", "peshawar"];
+
+
+// array methods
 
 // pop()
 // push()
@@ -94,65 +102,72 @@ else {
 // splice()
 // slice()
 
-// arr.pop()
+arr.pop()
+arr.pop();
 
-// arr.pop();
-// console.log(arr);
+console.log(arr);
 
-// var names = ["faraz", "farooq", "hamza", "ahmed", "ali", 12];
-// names.pop();
-// // names.pop();
-// // names.pop();
-// console.log(names);
+var names = ["faraz", "farooq", "hamza", "ahmed", "ali", 12];
+
+names.pop();
+names.pop();
+names.pop();
+
+console.log(names);
 
 // arr.push()
 
-// var cities = ["karachi"];
+var cities = ["karachi"];
 
-// cities.push("lahore", 12);
-// console.log(cities);
+cities.push("lahore", 12);
+console.log(cities);
+
 
 // arr.shift()
 
-// var names = ["faraz", "farooq", "hamza", "ahmed", "ali"];
-// names.shift();
-// names.shift();
+var names = ["faraz", "farooq", "hamza", "ahmed", "ali"];
+names.shift();
+names.shift();
 
-// console.log(names);
+console.log(names);
 
-// var countries = ["Pakistan", "India", "Afghanistan"];
-// countries.pop();
-// countries.shift();
-// // countries.push("");
-// console.log(countries);
+var countries = ["Pakistan", "India", "Afghanistan"];
+countries.pop();
+countries.shift();
+// countries.push("");
+console.log(countries);
+
 
 // arr.unshift()
 
-// var names = ["faraz", "farooq", "hamza", "ahmed", "ali"];
 
-// names.unshift("iqrash");
+var names = ["faraz", "farooq", "hamza", "ahmed", "ali"];
 
-// console.log(names);
+names.unshift("iqrash");
 
-// var arr = [1, 2, 3, 4, 5, 6, 7, 8];
-// arr.unshift(-1, 0);
+console.log(names);
 
-// console.log(arr);
+var arr = [1, 2, 3, 4, 5, 6, 7, 8];
+
+arr.unshift(-1, 0);
+
+console.log(arr);
 
 // arr.splice()
 
-// var arr = [1, 2, 3, 4, 5, 6, 7, 8];
+var arr = [1, 2, 3, 4, 5, 6, 7, 8];
 
-// // splice(index number, no of items to delete, then add values if you want)
-// // arr.splice(2, 4, "faraz", "hamza", "ahsan");
-// // console.log(arr);
-// arr.splice(8, 0, false);
-// console.log(arr);
+// splice(index number, no of items to delete, then add values if you want)
+
+arr.splice(2, 4, "faraz", "hamza", "ahsan");
+
+arr.splice(8, 0, false);
+
+console.log(arr);
 
 // arr.slice();
 
 var arr = [1, 2, 3, 4, 5, 6, 7, 8];
-// console.log(arr);
 
 var copy = arr.slice(1);
 console.log(copy);
