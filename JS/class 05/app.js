@@ -4,7 +4,9 @@ var weight = +prompt("Enter your weight");
  
 var city = prompt("Enter your city");
 
+
 // Nested If Statement
+
 
 if (city == "karachi") {
   if (age >= 18 || weight >= 90) 
@@ -18,7 +20,9 @@ if (city == "karachi") {
   console.log("city not match");
 }
 
+
 // logical operator program
+
 
 if ((age >= 18 || weight >= 90) && city == "karachi") {
   console.log("join now..");
@@ -48,11 +52,11 @@ if (programming_lang === "js")
         }
       } 
   else {
-            console.log("experience lay kr ao...");
+        console.log("experience lay kr ao...");
           }
         } 
 else {
-              console.log("JS SEEKHO!!");
+    console.log("JS SEEKHO!!");
 }
 
 
