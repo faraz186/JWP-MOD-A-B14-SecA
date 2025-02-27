@@ -12,46 +12,51 @@ for (var i = 0; i < citiesArr.length; i++) {
 
 // flags
 
-// var userInput = prompt("Enter your city");
+var userInput = prompt("Enter your city");
 
-// var citiesArr = ["karachi", "lahore", "multan"];
+var citiesArr = ["karachi", "lahore", "multan"];
 
-// var flag = false;
+var flag = false;
 
-// for (var i = 0; i < citiesArr.length; i++) {
-//   if (userInput === citiesArr[i]) {
-//     flag = true;
-//     console.log("hire");
-//   }
-// }
+for (var i = 0; i < citiesArr.length; i++) {
+  if (userInput === citiesArr[i]) {
+    flag = true;
+    console.log("hire");
+  }
+}
 
-// if (flag === false) {
-//   console.log("not hire");
-// }
+if (flag === false) {
+  console.log("not hire");
+}
 
-// var arr = [];
 
-// console.log("before arr ", arr);
+var arr = [];
 
-// for (var i = 0; i <= 10; i++) {
-//   arr.push(i);
-// }
+console.log("before arr ", arr);
 
-// console.log("after arr ", arr);
+for (var i = 0; i <= 10; i++) {
+  arr.push(i);
+}
 
-// var firstNames = [true];
+console.log("after arr ", arr);
 
-// var lastNames = ["faraz", "farooq", "ali", "ahmed"];
 
-// var fullName = [];
 
-// for (var i = 0; i < firstNames.length; i++) {
-//   for (var j = 0; j < lastNames.length; j++) {
-//     fullName.push(firstNames[i] + lastNames[j]);
-//   }
-// }
+var firstNames = [true];
 
-// console.log(fullName);
+var lastNames = ["faraz", "farooq", "ali", "ahmed"];
+
+var fullName = [];
+
+for (var i = 0; i < firstNames.length; i++) {
+  for (var j = 0; j < lastNames.length; j++) {
+    fullName.push(firstNames[i] + lastNames[j]);
+  }
+}
+
+console.log(fullName);
+
+
 
 var userInput = prompt("Enter your city");
 
@@ -76,8 +81,9 @@ if (flag === false) {
   console.log("not hire");
 }
 
-// var input = prompt("Enter name please....");
 
-// // console.log(input);
+var input = prompt("Enter name please....");
 
-// console.log(input.slice(0, 1).toUpperCase());
+// console.log(input);
+
+console.log(input.slice(0, 1).toUpperCase());
