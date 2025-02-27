@@ -1,5 +1,5 @@
 var userInput = prompt("Enter your city");
-             
+              
 var citiesArr = ["karachi", "lahore", "multan"];
 
 for (var i = 0; i < citiesArr.length; i++) {
