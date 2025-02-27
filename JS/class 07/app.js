@@ -1,14 +1,14 @@
-// var userInput = prompt("Enter your city");
+var userInput = prompt("Enter your city");
 
-// var citiesArr = ["karachi", "lahore", "multan"];
+var citiesArr = ["karachi", "lahore", "multan"];
 
-// for (var i = 0; i < citiesArr.length; i++) {
-//   if (userInput.toLowerCase() === citiesArr[i]) {
-//     console.log("hire");
-//   } else {
-//     console.log("not hire");
-//   }
-// }
+for (var i = 0; i < citiesArr.length; i++) {
+  if (userInput.toLowerCase() === citiesArr[i]) {
+    console.log("hire");
+  } else {
+    console.log("not hire");
+  }
+}
 
 // flags
 
