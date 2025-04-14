@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Calculator App</title>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        <h1 style="font-size: 30px; text-align: center">My Calculator App</h1>
+        <div class="main">
+            <div>
+                <input id="inputField" class="result" type="text">
+            </div>
+            <div>
+                <button onclick="clrAll()" class="clearBtn">C</button>
+            </div>
+            <div>
+                <button onclick="clrAll()" class="clearBtn">1/x</button>
+            </div>
+            <div>
+                <button onclick="getValue('%')" class="btn">%</button>
+                <button onclick="getValue('/')" class="btn">/</button>
+                <button onclick="square()" class="btn">
+                    x
+                    <small>
+                        <sup>2</sup>
+                    </small>
+                </button>
+                <button onclick="deleteChar()" class="btn">CE</button>
+            </div>
+            <div>
+                <button onclick="getValue(7)" class="btn">7</button>
+                <button onclick="getValue(8)" class="btn">8</button>
+                <button onclick="getValue(9)" class="btn">9</button>
+                <button onclick="getValue('*')" class="btn">X</button>
+            </div>
+            <div>
+                <button onclick="getValue(4)" class="btn">4</button>
+                <button onclick="getValue(5)" class="btn">5</button>
+                <button onclick="getValue(6)" class="btn">6</button>
+                <button onclick="getValue('-')" class="btn">-</button>
+            </div>
+            <div>
+                <button onclick="getValue(1)" class="btn">1</button>
+                <button onclick="getValue(2)" class="btn">2</button>
+                <button onclick="getValue(3)" class="btn">3</button>
+                <button onclick="getValue('+')" class="btn">+</button>
+            </div>
+            <div>
+                <button onclick="getValue(0)" class="halfBtn">0</button>
+                <button onclick="equal()" class="halfBtn">=</button>
+            </div>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>

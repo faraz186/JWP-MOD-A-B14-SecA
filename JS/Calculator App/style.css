@@ -1,0 +1,32 @@
+.main {
+  border: 5px groove grey;
+  width: 202px;
+  margin: 0 auto;
+}
+
+.result {
+  width: 96%;
+  position: relative;
+  top: -2px;
+  background-color: rgb(106, 105, 105);
+  color: #fff;
+}
+
+.clearBtn {
+  width: 100%;
+  margin-top: 10px;
+  margin-bottom: 6px;
+  background-color: grey;
+}
+
+.btn {
+  background-color: grey;
+  width: 45.2px;
+  margin: 1px;
+}
+
+.halfBtn {
+  background-color: grey;
+  width: 98.5px;
+  margin-top: 5px;
+}
