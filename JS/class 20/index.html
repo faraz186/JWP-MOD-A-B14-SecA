@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Firebase Auth</title>
+        <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+    </head>
+    <body>
+        <div class="signup_container">
+            <h1>SignUp</h1>
+            <input
+                id="name"
+                type="text"
+                required
+                placeholder="Enter Your Name"
+            >
+            <br>
+            <input
+                id="email"
+                type="email"
+                required
+                placeholder="Your email"
+            >
+            <br>
+            <input
+                id="password"
+                type="password"
+                required
+                placeholder="Your password"
+            >
+            <br>
+            <button onclick="signUp()" type="submit">Submit</button>
+        </div>
+        <br>
+        <br>
+        <br>
+        <div class="login_container">
+            <h1>Login</h1>
+            <input
+                id="loginemail"
+                type="email"
+                required
+                placeholder="Your email"
+            >
+            <br>
+            <input id="loginpassword" type="password" placeholder="Your password">
+            <br>
+            <button onclick="login()" type="submit">Submit</button>
+        </div>
+        <script src="app.js"></script>
+    </body>
+</html>
