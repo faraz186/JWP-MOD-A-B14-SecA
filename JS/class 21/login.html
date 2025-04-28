@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Document</title>
+        <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.17.2/firebase-auth.js"></script>
+    </head>
+    <body>
+        <div style="text-align: center;">
+            <h1>Login Form</h1>
+            <input type="text" id="email" placeholder="Enter email">
+            <br>
+            <br>
+            <input type="password" id="password" placeholder="Enter password">
+            <br>
+            <a href="./signup.html">Don't have an account create it...</a>
+            <br>
+            <br>
+            <button onclick="login()">Login</button>
+            <br>
+            <br>
+            <button onclick="loginWithGoogle()">Login WIth Google</button>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
