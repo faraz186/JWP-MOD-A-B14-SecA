@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Todo Application</title>
+        <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-app.js"></script>
+        <script src="https://www.gstatic.com/firebasejs/7.18.0/firebase-database.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+        <style>
+            .deletebtn{
+                background-color: red;
+                border: none;
+                color: black;
+                box-shadow: 0 0 20px red;
+            }
+
+            .Editbtn{
+                background-color: orange;
+                border: none;
+                color: black;
+                box-shadow: 0 0 20px orange;
+            }
+        </style>
+    </head>
+    <body>
+        <div style="text-align: center;font-family: Arial, Helvetica, sans-serif;font-size: 26px;">
+            <h1 class="text-3xl font-bold underline">Todo App</h1>
+        </div>
+        <div style="text-align: center;">
+            <input type="text" id="todoInput">
+            <button onclick="addTodo()">Add Items</button>
+            <button onclick="deleteAllTodos()">Delete all Items</button>
+        </div>
+        <div style="text-align: center;">
+            <ul id="items_data"></ul>
+        </div>
+    </body>
+    <script src="app.js"></script>
+</html>
